@@ -1,0 +1,17 @@
+terraform_tutorial % history
+  855  code db_parameter_group.tf
+  856  code output.tf
+  857  tf init
+  858  tf plan
+  859  terraform plan
+  860  terraform plan
+  861  terraform plan
+  862  terraform apply
+  863  terraform apply
+  864  terraform apply
+  865  aws configure --profile terraform-user\n
+  866  terraform apply
+  867  terraform apply
+  868  aws ec2 describe-instances --output table \\n--query 'Reservations[*].Instances[].{\n  ID: InstanceId,\n  Name: Tags[?Key==`Name`] | [0].Value,\n  State: State.Name\n  }' --profile terraform-user
+  869  ssh -i id_rsa_terraform ec2-user@18.177.104.124
+  870  terraform destroy
